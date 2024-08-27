@@ -39,9 +39,9 @@ export default function Navbar() {
 
           <Flex alignItems={'center'}>
             <Stack alignItems={"center"} direction={'row'} spacing={7}>
-                <Button display={auth==true?"block":"none"}  bg={"yellow"}m color={"green"} onClick={()=>{
+          {/* <Button display={auth==true?"block":"none"}  bg={"yellow"}m color={"green"} onClick={()=>{
                     nav("/notes")
-                }}>All Notes</Button>
+                }}>All Notes</Button> */}
                 <Button display={auth==true?"none":"block"}  bg={"yellow"}m color={"green"} onClick={()=>{
                     nav("/register")
                 }}>Sign up</Button>
