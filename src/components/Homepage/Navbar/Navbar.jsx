@@ -80,8 +80,8 @@ export default function Navbar() {
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem>Your Servers</MenuItem>
-                  <MenuItem>Account Settings</MenuItem>
+                   {/* <MenuItem>Your Servers</MenuItem>
+                  <MenuItem>Account Settings</MenuItem> */}
                   <MenuItem onClick={()=>{
                     dispatch({type:LOGOUT})
                   }}>Logout</MenuItem>
